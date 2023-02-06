@@ -1,0 +1,38 @@
+.list-items {
+  list-style: none;
+  align-items: center;
+}
+
+.cards {
+  background-color: #ffffff;
+  width: 200px;
+  max-width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #b5b7b4;
+}
+
+.card-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-heading {
+  color: #171f46;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.card-date {
+  color: #b5b7b4;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.star-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}
